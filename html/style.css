@@ -1,0 +1,83 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(225, 255, 0);
+    font-family: 'Spartan', sans-serif;
+    z-index: -1;
+}
+
+.list_reset {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.watermark {
+    display: block;
+    position: absolute;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0);
+    top: 2%;
+    right: 2%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0 20px;
+    transform: skew(-10deg);
+    transform: translate(-2%, -2%) skew(-5deg);
+    border-radius: 8px;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: violet;
+    border-width: 3px;
+    box-shadow: 0 0 0.5em rgb(0, 0, 0);
+}
+
+.watermark .watermarkcontainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.watermark .watermarkcontainer .maininfo {
+    display: block;
+    margin: 0 15px 0 0;
+}
+
+.watermark .watermarkcontainer .maininfo h2.title {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-align: right;
+    line-height: 1.6;
+}
+
+.watermark .watermarkcontainer .maininfo span.subtitle {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ff00e6;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.watermark .watermarkcontainer .mainlogo img {
+    max-width: 60px;
+}
+
+.watermark .watermarkcontainer .mainid span.id {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    line-height: 1.6;
+}
