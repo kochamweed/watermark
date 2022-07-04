@@ -1,3 +1,5 @@
+fx_version 'cerulean'
+
 description 'watermark on FiveM SERVER'
 
 ui_page 'html/ui.html'
