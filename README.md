@@ -1,1 +1,1 @@
-fivemhelp.xyz kurwinki
+kocham weed
